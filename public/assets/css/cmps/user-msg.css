@@ -1,0 +1,18 @@
+.user-msg {
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.user-msg button {
+    float: right;
+}
+
+.success {
+    background-color: var(--gold-clr);
+}
+
+.danger {
+    background-color: var(--main-clr);
+}

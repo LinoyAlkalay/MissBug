@@ -1,0 +1,21 @@
+.main-header {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main-header h1 {
+    padding: .5em 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 1em;
+    border-bottom: 1px solid transparent;
+}
+
+nav a:last-child {
+    padding-right: 0;
+}

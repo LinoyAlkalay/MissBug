@@ -1,0 +1,42 @@
+@font-face {
+    font-family: fa-solid;
+    src: url(../../fonts/font-awesome/fa-solid-900.ttf);
+}
+
+@font-face {
+    font-family: fa-regular;
+    src: url(../../fonts/font-awesome/fa-regular-400.ttf);
+}
+
+/* solid */
+.fa-solid:after {
+    font-family: fa-solid;
+    color: var(--clr-font);
+}
+
+.fa-solid.xmark:after {
+    content: "\f00d";
+}
+
+.fa-solid.arrow-left:after {
+    content: "\f060";
+}
+
+.fa-solid.arrow-rigth:hover:after {
+    content: "\f061";
+    /* position: absolute; */
+}
+
+/* regular */
+.fa-regular:after {
+    font-family: fa-regular;
+    color: var(--clr-font);
+}
+
+.fa-regular.pen-to-sgure:after {
+    content: "\f044";
+}
+
+.fa-regular.trash-can:after {
+    content: "\f2ed";
+}

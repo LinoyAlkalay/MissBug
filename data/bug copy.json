@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "dv45v",
+    "title": "Missing Parentheses",
+    "description": "conditional statements",
+    "severity": 2,
+    "createdAt": 1641043830000,
+    "labels": [
+      "conditional",
+      "statement",
+      "need-CR"
+    ],
+    "creator": {
+      "_id": "u101",
+      "fullname": "Puki Ka"
+    }
+  },
+  {
+    "_id": "HJjk7",
+    "title": "Capitalization Errors",
+    "description": "This error occurs if you spelled JavaScript keyword incorrectly",
+    "severity": 4,
+    "createdAt": 1653983940548,
+    "labels": [
+      "error",
+      "keyword",
+      "conditional"
+    ],
+    "creator": {
+      "_id": "u101",
+      "fullname": "Puki Ka"
+    }
+  },
+  {
+    "_id": "AWQd1",
+    "title": "Referencing DOM element Before It's Loaded",
+    "description": "his error occurs if you try to access a DOM element before it is loaded",
+    "severity": 8,
+    "createdAt": 1671139395865,
+    "labels": [
+      "DOM",
+      "need-CR",
+      "error"
+    ],
+    "creator": {
+      "_id": "u102",
+      "fullname": "Muki Pa"
+    }
+  },
+  {
+    "_id": "sdGdf",
+    "title": "Missing Parameters in Function Calls",
+    "description": "Make sure to give parameters descriptive names when you create a function",
+    "severity": 5,
+    "createdAt": 1672308480000,
+    "labels": [
+      "conditional",
+      "statement",
+      "function"
+    ],
+    "creator": {
+      "_id": "u102",
+      "fullname": "Muki Pa"
+    }
+  },
+  {
+    "_id": "flgG8",
+    "title": "Bad variable/function names",
+    "description": "In JavaScript, you cannot use any of the reserved keywords to name your variable",
+    "severity": 3,
+    "createdAt": 1648134962348,
+    "labels": [
+      "function",
+      "statement",
+      "keywords"
+    ],
+    "creator": {
+      "_id": "u101",
+      "fullname": "Puki Ka"
+    }
+  }
+]

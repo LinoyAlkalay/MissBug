@@ -1,0 +1,65 @@
+body {
+    background-color: var(--body-clr);
+    color: var(--font-clr);
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+}
+
+input {
+    font-size: 1rem;
+    padding: .5em;
+    border: 1px solid var(--font-clr);
+    width: 9.8em;
+}
+
+button {
+    font-size: 1rem;
+    color: var(--font-clr);
+    padding: .5em;
+    background-color: transparent;
+    border: 1px solid var(--font-clr);
+
+    transition: all .4s;
+}
+
+button:hover {
+    color: var(--body-clr);
+    background-color: var(--gold-clr);
+    border: 1px solid transparent;
+}
+
+button.fa-solid,
+button.fa-regular {
+    border: none;
+}
+
+button.fa-solid:hover,
+button.fa-regular:hover {
+    color: var(--main-clr);
+    background-color: transparent;
+}
+
+a {
+    color: var(--font-clr);
+
+    transition: all .4s;
+}
+
+a:hover {
+    color: var(--gold-clr);
+}
+
+.bug-index img,
+.home-page img,
+.about-us img {
+    margin: 1em 0;
+}
+
+h2,
+h3,
+h4 {
+    margin-bottom: .5em;
+}

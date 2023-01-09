@@ -1,0 +1,4 @@
+.bug-details-container {
+    border: 1px solid var(--font-clr);
+    padding: 1em;
+}

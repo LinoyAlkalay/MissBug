@@ -1,0 +1,37 @@
+.login-container {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.login-signup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.login-signup h2 {
+    margin: 0;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form input,
+.login-signup input {
+    border-right: transparent;
+}
+
+.login-signup-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-signup-container img {
+    width: 3em;
+    height: 3em;
+    margin-right: .5em;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.bug-list {
+    display: grid;
+    gap: 1em;
+}
+
+@media (min-width: 550px) {
+    .bug-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .bug-list {
+        gap: 2.5em;
+    }
+}
